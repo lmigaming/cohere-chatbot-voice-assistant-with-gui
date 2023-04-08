@@ -5,7 +5,7 @@ from gtts import gTTS
 from playsound import playsound
 import os
 
-co = cohere.Client("fc77mWLmwJQQPUMFzHPKeMTAQTjbHoFrcq0JlhXf")
+co = cohere.Client("API-KEY")
 
 cohere_chat_res_start = co.chat("")
 conv_session_id = cohere_chat_res_start.session_id
